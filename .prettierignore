@@ -1,0 +1,6 @@
+.gitignore
+.prettierignore
+*.svg
+yarn.lock
+*.ico
+.env
