@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "codegen": "dotenv -- graphql-codegen",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "prettier --write './**/*.*'"
+  },
+  "dependencies": {
+    "@urql/vue": "^1.1.2",
+    "graphql": "^16.8.1",
+    "urql": "^4.0.6"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.7",
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@graphql-codegen/typescript-urql": "^4.0.0",
+    "@graphql-codegen/typescript-vue-urql": "^3.0.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "dotenv-cli": "^7.3.0",
+    "element-plus": "^2.5.3",
+    "nuxt": "^3.9.3",
+    "prettier": "^3.2.4",
+    "sass": "^1.70.0",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}

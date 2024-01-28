@@ -1,0 +1,22 @@
+query SearchTvSeries($input: TvSeriesInput) {
+  searchTvSeries(input: $input) {
+    page
+    perPage
+    totalCount
+    items {
+      firstAirDate
+      genre
+      id
+      name
+      originCountry
+      originalLanguage
+      originalName
+      overview
+      popularity
+      posterPath
+      voteAverage
+      voteCount
+      year
+    }
+  }
+}
