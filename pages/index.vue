@@ -21,6 +21,7 @@ const items = computed(() => data.value?.searchTvSeries.items || []);
           lazy
           :src="`https://api.abuga.ru/image/t/p/w500${item.posterPath}`"
         />
+        <ElText :style="`font-size: x-large; display: flex; margin-top: 0.5em;`">{{ item.name }}</ElText>
       </el-card>
     </el-col>
   </el-row>
